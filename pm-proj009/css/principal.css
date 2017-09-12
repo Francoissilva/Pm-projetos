@@ -1,0 +1,43 @@
+@import url(header.css);
+@import url(cartao.css);
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../Imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+}
+
+.checkout {
+ width: 688px;
+ height: 588px;   
+ background-color: #fff;    
+     
+}
+
+.checkout header {
+    height: 40px;   
+    
+}
+
+.chekout main .cartao {
+    height: 100px;
+    width: 55%;
+}
+
+.chekout main .resumos {
+    height: 100px;
+     width: 45%;
+}
+
+.chekout main {
+    display: flex;
+
+}

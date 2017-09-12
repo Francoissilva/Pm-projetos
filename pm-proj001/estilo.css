@@ -1,0 +1,22 @@
+body {
+    background-color: #ecf0f1;
+    font-family: Arial,sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+   color: gray;
+   text-transform: uppercase;
+   text-align: center;    
+}
+
+.filme {
+    color: #fff;
+    background-color: #9b59b6;
+    font-size: 18px;
+    padding: 10px; 
+    margin: 10px;  
+}

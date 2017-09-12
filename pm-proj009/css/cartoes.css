@@ -1,0 +1,129 @@
+.cartoes {
+    height: 100px;
+    width: 60%; 
+}
+
+.cartoes .wallet h2 {
+   color: #777879;
+   font-size: 16px;
+   margin-left: 40px;
+   margin-top: 20px;     
+}
+
+.cartoes .wallet ul {
+    display: flex;
+    justify-content: center;
+}
+
+.cartoes .wallet li {
+    list-style: none;   
+    padding: 10px;
+    margin: 10px;
+}
+
+.cartoes .wallet li:hover {
+    background-color: #f5f9fd;
+    box-shadow: inset 0 0 2px #d1e3f5;
+    border-radius: 4px;
+}
+
+.cartoes .wallet small {
+    display: block;
+    text-align: center;
+    margin-top: 5px;    
+}
+
+.cartoes .wallet a {
+   text-decoration: none;
+   color: #c6c6c6;
+   font-size: 14px;    
+}
+
+.cartoes .newcard fieldst {
+    border: none;
+    text-align: center;
+}
+
+.cartoes .newcard legend {
+    font-size: 16px;
+    color: #777879;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.cartoes .newcard input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius:2px;
+}
+
+.cartoes .newcard input.data {
+    width: 149px;
+    margin-right: 10px;
+}
+
+.cartoes .newcard input.cvc {
+    width: 86px;
+}
+
+.cartoes ::-webkit-input-placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+}
+
+.cartoes .newcard button {
+    width: 289px;
+    padding: 15px;
+    background-color: #84d654;
+    font-size: 16px;
+    font-family: 'muliextrabold';
+    border: none;
+    color: #fff;
+    border 2px;
+}
+
+.cartoes .newcard label input {
+  width: 20px;
+  height: 20px;
+    
+}
+
+.cartoes .newcard label {
+    display: flex;
+    margin-left: 35px;
+    color: #777879;
+    font-size: 14px;
+}
+
+.produtos table {
+    width: 100%;
+    border-top: 1px solid #d6d4d7;
+    border-spacing: 0;
+    color: #777879;
+    font-size: 12px;
+}
+
+.produtos table th {
+    text-align: left;
+}
+
+.produtos table td {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.produtos table tfoot th,
+.produtos table tfoot td
+{
+     border-top: 1px solid #d6d4d7;  
+     font-family: 'muliextrabold';
+    
+}

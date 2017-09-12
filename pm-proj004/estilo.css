@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    margin: 5px;
+    padding: 60px;
+    list-style: none;
+    background-color: #4a4a4a; 
+    background-image: url('done.png.png');
+    background-repeat: no-repeat;
+    background-position:  10px center;
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+li.pronto {
+    background-color: #27ae60;
+    background-image: url('feito.png.png');
+}
+
+li.pronto:hover {
+    background-color: #52be7f;
+}
+
+ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    background-image: url(logo.png.png);
+    background-repeat: no-repeat;
+    background-position: right center; 
+    display: flex;
+    
+}

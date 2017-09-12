@@ -1,0 +1,74 @@
+body {
+    background-color: #f5f8f9;    
+    font-family: 'lato',sans-serif;
+}
+
+aside {
+    background-color: #3a3c40;    
+    text-align: center;
+    padding-top: 40px !important;
+}
+
+aside h1 {
+  text-transform: uppercase;
+  color: #f6a71e;
+  font-weight: bold;
+  font-size: 1.5em;       
+}
+
+aside h2 {    
+    font-weight: 1em;
+    font-weight: 700px;
+    color: #fff;    
+}
+
+aside .button  {
+    margin-top: 15px;
+    background-color: #f9a640 !important;
+    text-transform: uppercase;
+    font-size: 0.875em !important;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 4px 0px 0px rgba(245,166,35, 0.6);
+}
+
+aside .redes-sociais {
+    margin-top: 16px;
+    
+}
+
+aside .redes-sociais li {
+    display: inline;
+    margin-right: 5px;
+}
+
+aside .redes-sociais li i{
+    color: #fff;
+    font-size: 1.875em;
+} 
+
+aside .habilidades {
+    margin-top: 30px;
+    text-align: left
+}
+
+aside .habilidades h3 {
+  color: #eeeeee;
+  font-weight: bold;    
+  font-size: 16px;  
+  margin-bottom: 10px;    
+}
+
+aside .habilidades small {
+    color: #8fa4af;
+    font-size: 0.750em;
+}
+
+aside .hablidades progress {
+    margin-bottom: 5px;
+    background-color: #eeb65a;   
+}
+
+
+
+
+

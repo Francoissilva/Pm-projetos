@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'lato',sans-serif;
+}
+
+.painel {           
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: #ff3b80;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    box-shadow: 0px 6px 0px #a32751;
+    border-radius: 3px;
+    text-align: center;
+}    
+
+header {
+    margin-bottom: -100px;
+}
+
+header  h1{
+    margin: 0;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 20px;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header nav ul {
+    padding-right: 80px;
+    margin: 0;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block; 
+    margin-right: 80px;
+}
+
+header nav li:last-child {
+    border: 1px solid #fff; 
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+}
+
+
+
+
+
+section#primeiro {
+    background-image: url(fundo.png);
+    background-color: cover;
+    height: 700px;
+}
+
+section#primeiro .caixa {
+    color: #ffffff;
+   margin-top: 200px;
+    text-align: center;
+}
+
+section#primeiro .caixa h2 {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section#primeiro .caixa p {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+section#conheca {
+    padding: 70px;
+}
+
+section#conheca .texto {
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+       
+}
+
+section#conheca .texto h2 {
+    font-size: 36px;
+    margin-bottom: 30px; 
+}
+
+section#conheca .texto h2 p {
+    font-size: 24px;
+    margin-bottom:30px;
+}
+
+section#conheca .texto a {
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+section#depoimento  {
+    text-align: center;
+    background-color: #ebe7fb;
+    border-top: #511099 4px solid;
+}
+
+section#depoimento .painel {
+   flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+section#depoimento img {
+   width: 150px;
+    height: 150px;
+}
+
+section#depoimento p {
+  font-size: 24px;
+  width: 80%;
+  text-align: center;    
+}
+
+
+
+
+section#convite {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image: url(fundo-convite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#convite form {
+    background-color: blue;
+    width: 70%;
+    padding: 10px;
+    background-color: rgba( 255, 255, 255, 0.9);
+    border-radius: 3px;
+}
+
+
+section#convite .painel  {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite input {
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+section#convite button {
+  background-image: url(botao-convite.png);
+  background-color: transparent;
+  border: none;
+  width: 85px;
+  height: 43px;    
+}
+
+section#convite button  span{
+  visibility: hidden;
+}
+
+
+footer {
+    background-color: #2a0157;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 4px;
+}
+
+footer .painel {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    
+    section#conheca .painel {
+        flex-direction: column;
+        align-items: center;
+    }       
+    
+     section#conheca .painel .texto {
+        padding: 10px;
+   }
+    
+       section#conheca .painel .texto a {
+        width: 100%;
+   }
+    
+       section#conheca form {
+        display: block;
+        text-align: center;
+        width: 80%;   
+   }
+    
+    header nav {
+        display: none;
+    }
+    
+    header h1 {
+        margin-left: 20px;
+    }
